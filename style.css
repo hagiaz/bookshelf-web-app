@@ -1,0 +1,185 @@
+body {
+    position: relative;
+    font-family: "Open Sans";
+    background-image: url(Assets/bg2.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    text-align: center;
+}
+
+header {
+    position: relative;
+    font-family: 'Nevis';
+}
+
+.container-fluid{
+    padding: 15px 90px 15px 90px;
+}
+
+#tambahbuku{
+    background-color: #4b4e50;
+    padding-bottom: 35px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#appname{
+    margin-bottom: 40px;
+}
+
+.appname {
+    font-family: "Nevis";
+    font-weight: 1000;
+    font-size: 64px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #99fff1, 0 0 40px #99fff1, 0 0 50px #99fff1, 0 0 60px #99fff1, 0 0 70px #99fff1;
+}
+
+#appname img{
+    margin: 0 auto;
+    max-width: 150px;
+}
+
+button{
+    margin-top: 7px;
+    border-radius: 5px;
+    height: 35px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+button:hover{
+    box-shadow: rgb(0, 0, 0) 2px 2px 2px 0px;
+    color: white;
+}
+
+.tambahbuku{
+    background-color: #4CAF50;
+    font-size: 16px;
+    height: 3rem;
+    width: 300px;
+    border-style: none;
+    margin: 10px 0 10px 0;
+}
+
+.selesai, .belumselesai{
+    background-color: #4CAF50;
+    border-style: none;
+    width: 150px;
+}
+
+.hapus{
+    background-color: #f44336;
+    border-style: none;
+    width: 100px;
+    margin-left: 5px;
+}
+
+.input{
+    margin-bottom: 20px;
+}
+
+.form-control{
+    height: 2rem;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.form-check-input{
+    height: 25px;
+    width: 25px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+#judul, #penulis, #tahun, #cari{
+    width: 60%;
+}
+
+.books {
+    background-color: #4b4e50;
+    color: white;
+    font-family: "Nevis";
+    font-weight: 1000;
+    font-size: 32px;
+}
+
+.table{
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+#tables{
+    background-color: #4b4e50;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#belumselesai h3{
+    padding-top: 50px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+th{
+    min-width: 160px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'Lucida Sans Unicode';
+}
+
+.footer{
+    color: white;
+    margin-top: 20px;
+    background-color: #202122;
+    padding-bottom: 5px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+footer a{
+    color: rgb(211, 211, 211);
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:#3366cc;
+}
+
+.form-label{
+    color: white;
+}
+  
+.continue {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.continue:hover, .continue:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+
+    main{
+        padding: 0px;
+        overflow: auto;
+    }
+
+    th{
+        min-width: 0px;
+    }
+
+    .appname{
+        font-size: 100%;
+    }
+
+}
